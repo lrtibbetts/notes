@@ -1,0 +1,2 @@
+- a type of compiler that converts between programming languages at approximately the same level of abstraction. a traditional compiler translates from a higher level language to a lower level language
+- also called a transpiler

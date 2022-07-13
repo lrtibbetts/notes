@@ -1,0 +1,5 @@
+- Multi-Level Intermediate Representation
+- A flexible infrastructure for modern optimizing compilers. It consists of a spec for an [[Intermediate representation]] and a code toolkit to perform transformations on that representation
+- Highly influenced by [[LLVM]]
+- Project started by [TensorFlow](https://www.tensorflow.org/mlir) team at Google
+- 

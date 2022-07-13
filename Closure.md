@@ -1,0 +1,2 @@
+- Also: lexical closure, function closure
+- 
