@@ -7,10 +7,10 @@
 ##### Bundlers
 - Webpack: module bundler for JS. It takes modules with dependencies and generates static assets representing those modules. Supports ES Modules and CommonJS
 	- [Hot module replacement (HMR)](https://webpack.js.org/guides/hot-module-replacement/): allows modules to be updated at runtime without the need for a full refresh. Should only be used in development
-- rollup.js: also a module bundler for JS. Uses ES Modules (not CommonJS). Doesn't handle node modules ([plugin](https://www.npmjs.com/package/@rollup/plugin-node-resolve) for resolving node modules). Does not support HMR.
+- rollup.js: also a module bundler for JS. Uses ES Modules (not CommonJS). Doesn't handle node modules ([plugin](https://www.npmjs.com/package/@rollup/plugin-node-resolve)). Does not support HMR.
 - Parcel: another bundler. "zero configuration".
 	- Hot reloading
-	- Written in  (built on swc)
+	- Written in Rust (built on swc)
 	- Automatically handles JSX, [[TypeScript]]
 
 
