@@ -1,3 +1,7 @@
+To investigate
+- logging / telemetry
+
+
 ##### Compilers
 - Babel: [[Source-to-source compiler]] that converts ES15+ JavaScript into older versions of JS
 - swc: Rust-based web platform. It can be used for compilation and bundling. Claims to be 20x faster than Babel. Used by tools like Next.js, Parcel, and Deno
@@ -12,6 +16,11 @@
 	- Hot reloading
 	- Written in Rust (built on swc)
 	- Automatically handles JSX, [[TypeScript]]
+
+
+##### Static type-checkers
+- [[TypeScript]]
+- Flow
 
 
 ##### Build, publish, test

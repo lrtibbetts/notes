@@ -6,7 +6,7 @@ React is:
 - the value of `this` in a method depends on how it is called
 - arrow functions don't have their own `this` value, so they are handy when you want to preserve an outer method's definition of `this`
 
-##### JSX
+##### [[JSX]]
 Example:
 ```
 const element = <h1>Hello, world!</h1>;
@@ -65,3 +65,33 @@ this.handleClick = this.handleClick.bind(this);  }
 - you can return `null` from `render()` to have a component hide itself. note that returning `null` does not affect the firing of lifecycle methods, e.g. `componentDidUpdate` will still be called
 
 ##### Lists and Keys
+- you need to provide a "key" when creating lists of elements. keys help React identify which items have changed, are added, or are removed. the best candidate here is a stable id for each item
+- keys need to be unique among their siblings. they don't need to be globally unique
+
+##### Forms
+- an input form element whose value is controlled by React is called a *controlled component*
+- you can use the same approach (React as source of truth) for things like text areas, `<select>`, etc.
+- specifying the `value` prop on a controlled component prevents the user from changing the user unless you desire so
+- [Formik](https://formik.org/) is a popular library for handling forms
+
+
+##### Lifting state up
+- when several components need to reflect the same changing data, it is recommended to lift the shared state up to the closest common ancestor
+- props are read-only, so a child component cannot directly modify shared state passed as props. instead it can accept a callback as props, e.g. `onTemperatureChange`()
+- there should be a single "source of truth" for any data that changes in a React application
+- you should rely on top-down data flow
+
+
+##### Composition vs inheritance
+- it is recommended to use composition instead of inheritance as a means of reuse
+- some components don't know their children ahead of time. such components can use the special `children` prop to pass children elements directly into their output
+- sometimes components are "special cases" of other components. this can be achieved by composition, where a more "specific" component renders a more "generic" one and configures it with props
+
+
+##### Thinking in React
+- start with a mock
+- step 1: break the UI into a component hierarchy
+- step 2: build a static version
+- step 3: identify the minimal (but complete) representation of UI state
+- step 4: identify where your state should live
+- step 5: add inverse data flow
