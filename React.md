@@ -28,6 +28,40 @@ const element = <h1>Hello, world!</h1>;
 - the simplest component is a JS function. called a "function component"
 - note: always start component names with a capital letter
 - props are read-only. **all components must act like pure functions with respect to their props**
-- 
 
+##### State and lifecycle
+- the `render()` method in a class component will be called each time an update happens, but as long as the component is rendered into the same DOM node, a single instance of the class will be used.
+- class components should always call the base constructor with `props`
+- "mounting" = a component is rendered to the DOM for the first time
+- "unmounting" = component is removed from the DOM
+- lifecycle methods: `componentDidMount()`, `componentWillUnmount()`
+- we can use `this.setState()` to update local component state
+- important notes about using state:
+	- do not modify state directly (i.e. `this.state.comment = 'hello'`. instead use `setState()`
+	- `this.props` and `this.state` may be updated asynchronously. you should not rely on their values for calculating the next state
+	- state updates are merged into the current state
+- state is not accessible to any component other than the one that owns and sets it. state can be passed down as props to a child component
 
+##### Events
+- you must call `preventDefault` explicitly in React
+- [W3C spec](https://www.w3.org/TR/DOM-Level-3-Events/) for synthetic events. The React implementation is `SyntheticEvent`. It is a cross-browser wrapper around the browser's native event. You can access the underlying browser event with `nativeEvent` property.
+- in JS, class methods are *not* bound by default.
+```
+// This binding is necessary to make `this` work in the callback    
+this.handleClick = this.handleClick.bind(this);  }
+```
+- you can pass additional arguments to event handlers, e.g.
+  ```
+  onClick={(e) => this.deleteRow(id, e)}
+  ```
+
+##### Conditional Rendering
+- you can use `if` to conditionally render components
+- you can also use JSX and `&&` to provide an inline `if`, e.g.
+```
+{someCondition && <h2>conditionally rendered text</h2>}
+```
+- another inline option is using `condition ? true : false`
+- you can return `null` from `render()` to have a component hide itself. note that returning `null` does not affect the firing of lifecycle methods, e.g. `componentDidUpdate` will still be called
+
+##### Lists and Keys
