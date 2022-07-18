@@ -4,7 +4,7 @@ To investigate
 
 ##### Compilers
 - Babel: [[Source-to-source compiler]] that converts ES15+ JavaScript into older versions of JS
-- swc: Rust-based web platform. It can be used for compilation and bundling. Claims to be 20x faster than Babel. Used by tools like Next.js, Parcel, and Deno
+- swc (Speedy Web Compiler): Rust-based web platform. It can be used for compilation and bundling. Claims to be 20x faster than Babel. Used by tools like Next.js, Parcel, and Deno
 - svelte: compiles to vanilla JS
 
 
@@ -16,11 +16,18 @@ To investigate
 	- Hot reloading
 	- Written in Rust (built on swc)
 	- Automatically handles JSX, [[TypeScript]]
+- Browserify
 
 
 ##### Static type-checkers
 - [[TypeScript]]
 - Flow
+
+
+##### Linting
+- eslint
+	- eslint-plugin-compat: check browser compatability
+	- 
 
 
 ##### Build, publish, test
@@ -31,10 +38,13 @@ To investigate
 
 ##### Deployment, hosting
 - Vercel
+- Render
+- Netlify
+- GitHub pages
 
 
 ##### Package managers
-- Yarn (stand for Yet Another Resource Negotiator)
+- Yarn (stands for Yet Another Resource Negotiator)
 - npm
 
 
@@ -49,6 +59,11 @@ To investigate
 	- based on pydantic: provides data validation
 - More Python frameworks: Django, Flask
 - Express (JS)
+
+
+##### [[Template Engines]]
+- Pug (prev. Jade)
+- Mustache
 
 
 ##### Content Management Systems (CMS)
