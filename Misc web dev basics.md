@@ -5,7 +5,7 @@
 
 ##### Server-side vs client-side rendering
 - Server-side rendering (SSR) means the server generates a complete HTML page in response to a URL request
-- Client-side rendering means the browser will compile and run JavaScript code to generate the HTML content
+- Client-side rendering means the browser will run JavaScript code to generate the HTML content
 
 
 ##### Single-page application (SPA)

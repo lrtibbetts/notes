@@ -309,4 +309,11 @@ maths.pi;
 - Compiler flag to reduce friction between ES Modules and CommonJS: `esModuleInterop`
 - There are many TSConfig flags that influence module strategy
 
+
+
+##### Declaration files
+- predefined modules that describe the shape of JS values, or the types present, for the TS compiler
+- usually contained in files with a .d.ts extension
+- can be installed via npm using `@types`
+
 #pl #web
