@@ -6,3 +6,5 @@
 - V8 engine
 	- developed for Google Chrome and Chromium browsers
 	- also used in [[Node.js]], Deno (runtime environment), Couchbase (db server), Electron (desktop application framework, used by Atom and VSCode)
+
+#web

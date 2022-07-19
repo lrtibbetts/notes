@@ -14,4 +14,4 @@
 - *Hoisting* refers to the process whereby the interpreter appears to move teh *declaration* of functions, variables, or classes to the top of their scope, prior to execution of the code. Hoisting means you can safely use functions in code before they are declared.
 
 
-#pl
+#pl #web

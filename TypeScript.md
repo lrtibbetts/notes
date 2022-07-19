@@ -309,4 +309,4 @@ maths.pi;
 - Compiler flag to reduce friction between ES Modules and CommonJS: `esModuleInterop`
 - There are many TSConfig flags that influence module strategy
 
-#pl
+#pl #web

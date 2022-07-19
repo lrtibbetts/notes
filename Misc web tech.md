@@ -1,5 +1,9 @@
 To investigate
-- logging / telemetry
+- logging, telemetry
+	- google analytics
+- [harp](http://harpjs.com/) (static web server)
+- bootstrap (frontend framework)
+- next.js
 
 
 ##### Compilers
@@ -41,6 +45,7 @@ To investigate
 - Render
 - Netlify
 - GitHub pages
+- Heroku
 
 
 ##### Package managers
@@ -48,24 +53,16 @@ To investigate
 - npm
 
 
-##### UI frameworks
+##### Frontend frameworks
 - React
 - Preact: lightweight alternative to React
 - Vue
 
 
-##### API frameworks
-- FastAPI: for developing Python APIs
-	- based on pydantic: provides data validation
-- More Python frameworks: Django, Flask
-- Express (JS)
+##### Web frameworks
+- Python: FastAPI, Django, Flask
+- JS: Express, Koa, Fastify
 
+#web
 
-##### [[Template Engines]]
-- Pug (prev. Jade)
-- Mustache
-
-
-##### Content Management Systems (CMS)
-- Drupal
 
