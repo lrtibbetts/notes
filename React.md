@@ -96,4 +96,46 @@ this.handleClick = this.handleClick.bind(this);  }
 - step 4: identify where your state should live
 - step 5: add inverse data flow
 
+
+##### ReactDOMServer
+- the `ReactDOMServer` object enables you to render components to static markup
+- typically used on a Node server
+
+
+##### [Render props](https://reactjs.org/docs/render-props.html)
+- "render prop" refers to a technique for sharing code between React components using a prop whose value is a function
+- a component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic, e.g.
+  ```
+  <DataProvider render={data => (
+    <h1>Hello {data.target}</h1>
+  )}/>
+  ```
+- render props let components dynamically determine what to render
+- this pattern could be used with props other than `render`, e.g. `children`
+
+
+##### [Hooks](https://reactjs.org/docs/hooks-intro.html)
+- new to React 16.8
+- let you use state (and other features) without writing a class
+- problems hooks try to solve
+	- wrapper hell
+	- large components
+	- complexity associated with classes, e.g. binding `this`, etc
+- **hooks provide a better primitive for sharing stateful logic**. they let you reuse stateful logic without changing your component hierarchy
+-  `useState` is one kind of hook
+	- lets you hook into local state from a function component
+	- will prompt React to re-render the component
+- context lets you share global information throughout a component tree. Another  hook is `useContext`.
+	- reads the context *and* subscribes the component to context updates
+- you cannot use hooks inside of a conditional. They must be at the top-level of a function.
+- `useEffect`
+	- by default, runs after initial render and after every update
+	- can add logic here that you might have added to both `componentDidMount` and `componentDidUpdate` in a class component
+	- you can use `useEffect` multiple times within a function
+	- any effect can optionally return a function. if there is a returned function, React will call it to "clean up" after an effect.
+- you can extract logic using hooks to a separate function entirely: a **custom hook**.
+	- makes it easy to reuse stateful logic between components
+	- custom hook names should always start with `use` 
+
+
 #web

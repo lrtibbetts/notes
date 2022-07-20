@@ -4,6 +4,7 @@ To investigate
 - [harp](http://harpjs.com/) (static web server)
 - bootstrap (frontend framework)
 - next.js
+- remix
 
 
 ##### Compilers
@@ -21,6 +22,7 @@ To investigate
 	- Written in Rust (built on swc)
 	- Automatically handles JSX, [[TypeScript]]
 - Browserify
+- [esbuild](https://esbuild.github.io/)
 
 
 ##### Static type-checkers
@@ -36,6 +38,7 @@ To investigate
 
 ##### Build, publish, test
 - lerna: build system for managing and publishing multiple JS/TypeScript packages from the same repository
+- Nx: build system with monorepo support
 - rush: monorepo manager for the web. Lets you build and publish many JS packages from a common Git repo.
 - bazel: build and test
 
@@ -59,7 +62,7 @@ To investigate
 - Vue
 
 
-##### Web frameworks
+##### Web server frameworks
 - Python: FastAPI, Django, Flask
 - JS: Express, Koa, Fastify
 
