@@ -18,3 +18,5 @@ Terminology
 - Route: object typically with a shape of `{ path, element }` or `<Route path element>`
 - Match: object that holds information when a route matches the URL
 - Outlet: component that renders the next match in a set of matches
+
+#web
