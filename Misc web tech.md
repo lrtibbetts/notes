@@ -41,6 +41,7 @@ To investigate
 - Nx: build system with monorepo support
 - rush: monorepo manager for the web. Lets you build and publish many JS packages from a common Git repo.
 - bazel: build and test
+- Earthly: run CI/CD pipelines anywhere
 
 
 ##### Deployment, hosting
@@ -49,6 +50,8 @@ To investigate
 - Netlify
 - GitHub pages
 - Heroku
+- fly.io
+- Cloudflare
 
 
 ##### Package managers

@@ -1,0 +1,6 @@
+- The dream machine: J.C.R. Licklider and the Revolution That Made Computing Personal
+- The beginning of infinity: David Deutsch
+- On the shortness of life: Seneca
+- Democracy in America: Tocqueville
+- The art of doing science and engineering: Richard Hamming
+- A Pattern Language: Towns, Buildings, Construction (Center for Environmental Structure Series)

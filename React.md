@@ -136,6 +136,7 @@ this.handleClick = this.handleClick.bind(this);  }
 - you can extract logic using hooks to a separate function entirely: a **custom hook**.
 	- makes it easy to reuse stateful logic between components
 	- custom hook names should always start with `use` 
+- [more on how hooks work behind the scenes](https://overreacted.io/how-does-setstate-know-what-to-do/)
 
 
 #web
