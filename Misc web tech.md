@@ -1,11 +1,6 @@
 To investigate
 - logging, telemetry
 	- google analytics
-- [harp](http://harpjs.com/) (static web server)
-- bootstrap (frontend framework)
-- next.js
-- remix
-
 
 ##### Compilers
 - Babel: [[Source-to-source compiler]] that converts ES15+ JavaScript into older versions of JS
@@ -63,11 +58,24 @@ To investigate
 - React
 - Preact: lightweight alternative to React
 - Vue
+- Bootstrap (HTML, CSS, and JS library)
 
 
-##### Web server frameworks
+##### Web application frameworks
 - Python: FastAPI, Django, Flask
 - JS: Express, Koa, Fastify
+
+
+##### Full stack frameworks
+- Next.js
+- Remix
+
+
+##### SSG
+- Hugo: open source, written in Go
+- Gatsby (React-based)
+- Harp (static web server)
+
 
 #web
 

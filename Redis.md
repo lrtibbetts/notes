@@ -1,0 +1,9 @@
+- open source, in-memory data structure store used as a database, cache, message broker, and streaming engine
+- includes:
+	- transactions: allow the execution of multiple commands in a single step
+	- pub/sub channels
+	- server-side Lua scripting
+	- LRU eviction of keys
+	- automatic failover
+- written in ANSI C
+- 
