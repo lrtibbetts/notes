@@ -4,3 +4,6 @@
 - Democracy in America: Tocqueville
 - The art of doing science and engineering: Richard Hamming
 - A Pattern Language: Towns, Buildings, Construction (Center for Environmental Structure Series)
+- The Paris Interviews
+- Where Wizards Stay up Late
+- Ursula Le Guin
