@@ -1,0 +1,4 @@
+- POSIX Threads (or pthreads) = parallel execution 
+- you create and control threads by making calls to the POSIX Threads API
+- POSIX Threads = standards based API. implementations are available on many Unix-like operating systems, typically bundled as a library `libpthread`
+- 
