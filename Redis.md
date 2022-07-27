@@ -6,4 +6,5 @@
 	- LRU eviction of keys
 	- automatic failover
 - written in ANSI C
-- 
+- `redis-cli`
+	- 

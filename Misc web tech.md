@@ -75,6 +75,8 @@ To investigate
 - Hugo: open source, written in Go
 - Gatsby (React-based)
 - Harp (static web server)
+- Eleventy
+- Jekyll: tailored to blogs
 
 
 #web

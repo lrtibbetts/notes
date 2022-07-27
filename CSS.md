@@ -1,0 +1,5 @@
+- CSS = Cascading Style Sheets
+- stylesheet language used to describe the presentation of a document written in HTML or XML
+- extensions
+	- Sass (Syntactically Awesome Style Sheets). you can compile Sass files to CSS
+	- 2 syntaxes: `.scss` is most commonly used. it's a superset of CSS, aka all valid CSS is also valid SCSS. `.sass` uses indentation rather than curly braces, and newlines instead of semicolons.
