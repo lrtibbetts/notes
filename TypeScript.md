@@ -313,7 +313,13 @@ maths.pi;
 
 ##### Declaration files
 - predefined modules that describe the shape of JS values, or the types present, for the TS compiler
-- usually contained in files with a .d.ts extension
+- usually contained in files with a `.d.ts` extension
 - can be installed via npm using `@types`
+
+
+##### APIs of interest
+- `Pick`
+- `Awaited`
+- `ReturnType`
 
 #pl #web

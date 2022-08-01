@@ -33,6 +33,7 @@
 - rush: monorepo manager for the web. Lets you build and publish many JS packages from a common Git repo.
 - bazel: build and test
 - Earthly: run CI/CD pipelines anywhere
+- Cypress: testing
 
 
 ##### Deployment, hosting
