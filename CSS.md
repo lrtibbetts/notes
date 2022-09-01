@@ -5,3 +5,6 @@
 	- 2 syntaxes: `.scss` is most commonly used. it's a superset of CSS, aka all valid CSS is also valid SCSS. `.sass` uses indentation rather than curly braces, and newlines instead of semicolons.
 - CSS frameworks
 	- [Tailwind](https://tailwindcss.com/)
+- - Centering things
+	- text: `text-align`
+	- can use `flex` and `justify-content`
