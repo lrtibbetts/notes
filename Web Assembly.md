@@ -3,4 +3,9 @@
 - Supported by Chrome, Firefox, Safari, Edge, and [[Node.js]]
 
 
+##### [WasmEdge](https://www.secondstate.io/articles/wasmedge-joins-cncf/)
+- Wasm runtime optimized for edge computing
+- advanced AOT compiler support
+- 
+
 

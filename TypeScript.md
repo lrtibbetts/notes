@@ -318,8 +318,8 @@ maths.pi;
 
 
 ##### APIs of interest
-- `Pick`
-- `Awaited`
-- `ReturnType`
+- `Pick`: From T, pick a set of properties whose keys are in the union K
+- `Awaited`: Recursively unwraps the "awaited type" of a type. Non-promise "thenables" should resolve to `never`. This emulates the behavior of `await`.
+- `ReturnType`: Obtain the return type of a function type
 
 #pl #web
