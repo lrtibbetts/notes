@@ -13,5 +13,9 @@
 	- `const` variables maintain constant values. They are block scoped, and cannot be updated *or* re-declared.
 - *Hoisting* refers to the process whereby the interpreter appears to move teh *declaration* of functions, variables, or classes to the top of their scope, prior to execution of the code. Hoisting means you can safely use functions in code before they are declared.
 
+##### [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- a [[Closure]] is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)
+- i.e. a closure gives you access to an outer function's scope from an inner function
+- in JS, closures are created every time a function is created
 
 #pl #web

@@ -24,4 +24,10 @@ is an adapter. handlers are server agnostic. adapters make them work for a speci
 - Remix Route modules take on View and Controller responsibilities. Routes can contain both the UI and the interactions with the models in the same file (nice co-location)
 
 
+##### Guides
+- [Data Writes](https://remix.run/docs/en/v1/guides/data-writes#html-form-post)
+	- built on top of `<form>` API
+	- big forms and buttons alike can be handled with a form post
+
+
 #web
