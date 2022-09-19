@@ -35,8 +35,7 @@
 	- Streaming: sends the document in chunks during initial SSR
 	- Suspense: defines where the UI can fallback when components are reading data
 		- not designed to define where you *initiate* fetches, but rather *where you access the results*
-- react router / remix lets you initiate fetches for all the components on a page  
- *in parallel*
+- react router / remix lets you initiate fetches for all the components on a page *in parallel*
 - goal is always: parallelize, unblock
 - inherent tradeoff between: TTFB and LCP. E.g. fetching data from the server speeds up LCP but slows down TTFB
 	- caching can help here

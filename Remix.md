@@ -16,7 +16,7 @@ What is it?
 - remix is not actually a server. it is just a handler that is given to an actual JS server. it is built on the fetch API instead of [[Node.js]].
 - Express is the actual server; Remix is just the handler
 - `@remix-run/express`
-is an adapter. handlers are server agnostic. adapters make them work for a specific server by converting the server's req/res API into the Fetch API on the way in, and adapting the Fetch response into the server's respoonse API.
+is an adapter. handlers are server agnostic. adapters make them work for a specific server by converting the server's req/res API into the Fetch API on the way in, and adapting the Fetch response into the server's response API.
 
 
 ##### Server Framework
