@@ -33,5 +33,9 @@
 		- larger CSS module with child properties
 		- if a container is assigned `display: flex`, all elements will automatically be placed side by side. The container still takes the full width of the row and behaves like a block-level element
 		- `inline-flex`: the container will take the necessary space as large as its children
+	- https://web.dev/avoid-large-complex-layouts-and-layout-thrashing/
+		- Avoid layout thrashing!
+	- Interactive buttons https://www.codelord.net/2013/11/12/css-tip-stop-your-buttons-from-flickering/
+	- 
 
 	
