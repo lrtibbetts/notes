@@ -15,6 +15,7 @@
 	- `absolute`: element is removed from normal document flow. It is positioned relative to its closest positioned ancestor.
 	- `fixed`: element is removed from normal document flow. It is positioned relative to the initial containing block established by the viewport
 	- `sticky`: element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block
+- `rem` = root element's font size
 
 
 #### Resources
@@ -37,6 +38,8 @@
 		- Avoid layout thrashing!
 	- Interactive buttons https://www.codelord.net/2013/11/12/css-tip-stop-your-buttons-from-flickering/
 	- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
+	- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+		- (!) If `flex-direction` = column, `align-items` will align items horizontally
 
 
 #### CSS Building Blocks
@@ -90,3 +93,4 @@ Types of selectors:
 ##### Additional notes
 - When you use margin and padding set in percentages, the value is calculated from the inline size of the containing block (aka width when working in a horizontal language)
 - viewport = visible area of your page in the browser. `vw` = viewport width, `vh` = viewport height
+- BEM = block, element, modifier. naming convention for CSS classes
