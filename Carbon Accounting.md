@@ -14,4 +14,6 @@ https://rmi.org/insight/the-next-frontier-of-carbon-accounting/
 	- https://ghgprotocol.org/scope-3-technical-calculation-guidance
 	- 15 categories of scope 3 emissions. not sector/product specific 
 
+  https://www.weforum.org/agenda/2021/12/digital-tracing-industrial-carbon-emissions-decarbonization/
+
 #climate

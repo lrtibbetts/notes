@@ -8,6 +8,6 @@ Misc web APIs
 		- the session lasts as long as the tab/browser is open, and survives over page reloads, restores
 - [History](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 	- the `history` object exposes methods/properties that let you navigate back and forth through a user's history
-
+- [Document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector): returns the first element within the doc that matches the specified selector, or group of selectors
 
 #web
